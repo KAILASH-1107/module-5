@@ -216,28 +216,35 @@ Create a C program to calculate the total and average of student using structure
 ## ALGORITHM 
 
 Step 1: Start the program.
+
 Step 2: Define a struct student with:
 •	name: a character array (size 10) for the student's name (not used in the logic).
 •	rollno: an integer for the student's roll number (also unused).
 •	subject[5]: an array to store marks of 5 subjects.
 •	total: an integer to store total marks.
+
 Step 3: Declare an array s[2] of type struct student for 2 students. Also declare variables n, i, and j for input 
              and iteration.
+
 Step 4: Input Loop (i = 0 to 1):
 •	Read an integer n (but it's not used later — possibly intended for roll number or placeholder).
 •	Loop j = 0 to 4:
 o	Read 5 subject marks into s[i].subject[j].
+
 Step 5: Total Marks Calculation Loop (i = 0 to 1):
 •	Initialize s[i].total to 0.
 •	Loop j = 0 to 4:
 o	Add each subject mark to s[i].total.
+
 Step 6: Override Total (Hardcoded):
 •	Set s[0].total = 374;
 •	Set s[1].total = 383;
            This step overwrites the computed totals. It seems like testing or hardcoded totals — unnecessary if you’re 
                  already calculating them.
+
 Step 7: Output Loop (i = 0 to 1):
 •	Print s[i].total for each student.
+
 Step 8: End the program.
 
 ## PROGRAM
